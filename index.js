@@ -10,7 +10,6 @@ generateButton.addEventListener('submit', function(event) {
     const partnerHash = document.querySelector('#partnerHash').value;
     const tourIDs = document.querySelector('#tourIDs').value;
 
-
     const newUrl = `${partnerURL}?partner_id=${partnerHash}&partner_ticketing_activity_ids=${tourIDs}`;
 
     alert(`New URL: ${newUrl}`);
